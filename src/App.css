@@ -1,0 +1,150 @@
+.main-section {
+  padding: 5% 0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-div {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+}
+
+.first-div {
+  background-color: #3498db; /* Blue background color */
+  /* Additional styling for the first div */
+}
+
+.second-div {
+  background-color: #7f8c8d; /* Gray background color */
+  /* Additional styling for the second div */
+}
+
+.products_section {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .products_section {
+    grid-template-columns: 0.3fr 0.9fr;
+  }
+}
+
+.text-lay{
+font-family:'Barlow Condensed', sans-serif;;
+}
+.text-lay1{
+  font-family: 'Open Sans', sans-serif;
+  }
+  .text-lay2{
+    font-family: 'Bellefair', serif;
+    }
+
+    .box-shadow{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .box-shadow--sm{
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+      
+    }
+
+    .box-container {
+      width: 15%;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .box-container:hover {
+      transform: scale(1.1);
+    }
+
+    .box-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+    }
+
+    .socialIcon {
+      transition: transform 0.3s ease-in-out;
+    }
+    .socialIcon:hover{
+      transform: scale(2.2);
+      cursor: pointer;
+    }
+
+    .footer-box--shadow{
+      box-shadow: rgba(228, 17, 17, 0.2) 0px 60px 40px -7px;
+    }
+
+
+    .sort .active {
+      padding: 2px 2px;
+      background-color: black;
+      color: #fff;
+    }
+   
+    .active {
+      opacity: 1;
+    }
+
+
+
+
+.btn-style{
+  color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.125rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-weight: 600;
+  background-color: #b75950;
+  cursor: pointer;
+}
+.btn-style:hover {
+  background-color: #ab483f;
+}
+
+
+/* pop up description for services  */
+.service1 {
+  position: relative;
+  
+
+}
+
+.service1 .description {
+ 
+  position: absolute;
+  top: 11rem;
+  left: 0;
+  right: 0;
+  display: none;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px; /* Adjust as needed */
+  border-radius: 8px; /* Add border-radius for a rounded look */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.service1:hover .description {
+  display: block;
+  opacity: 1;
+  
+}
+
+
+.loader{
+  width: 10px;
+  height: 10px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background: red;
+}
+
+
+/* single product page  */
