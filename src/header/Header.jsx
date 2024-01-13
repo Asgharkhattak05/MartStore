@@ -6,6 +6,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { motion } from "framer-motion";
 import close from "../images/close.svg"
 import menu from "../images/menu .svg"
+import cartIcon from "../images/cart.svg"
 
 
 const Header = () => {
@@ -72,7 +73,7 @@ const Header = () => {
           </ul>
           <NavLink to="/cart">
           <img
-            src="./src/images/cart.svg"
+            src={cartIcon}
             className="absolute md:h-7 h-8 md:top-5 z-50 top-4 md:right-10 right-24"
             alt="cart-icon"
           />
