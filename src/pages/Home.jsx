@@ -33,7 +33,7 @@ const Home = () => {
         <FeatureProduct />
         <Services />
         <Trusted />
-
+        
       </motion.div>
     </>
   );

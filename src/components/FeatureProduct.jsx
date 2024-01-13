@@ -24,7 +24,7 @@ const FeatureProduct = () => {
   return (
     <>
     <Wrapper>
-      <div className="bg-[#F7F8FB] flex items-center justify-center" >
+      <div className="bg-[#F7F8FB] flex items-center justify-center sm:py-1 lg:py-9" >
         <div className="w-[70%] ">
           <h2 className="text-slate-300 text-xl pt-7">Check Now!</h2>
           <h3 className="text-2xl font-bold pb-5">Our Feature Services</h3>
@@ -42,7 +42,7 @@ const FeatureProduct = () => {
   );
 };
 const Wrapper = styled.section`
-  padding: 9rem 0;
+
 
   .container {
     max-width: 120rem;
