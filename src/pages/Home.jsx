@@ -29,7 +29,7 @@ const Home = () => {
         animate="visible"
         exit="exit"
       >
-        <Hero className="top-[68%]" title="OmMart Store" />
+        <Hero className="sm:top-[382px]" title="OmMart Store" />
         <FeatureProduct />
         <Services />
         <Trusted />

@@ -37,7 +37,7 @@ const Hero = ({ title, className, image }) => {
             }}
           >
             <div
-              className={`${className} bg-[#b8b0f7] w-56 h-[30%] absolute -z-50  md:right-56 right-5  md:top-32`}
+              className={`${className} bg-[#b8b0f7] w-56 h-[33%] absolute -z-50  md:right-56 right-5  md:top-32`}
             ></div>
             <img
               src={heroImg}

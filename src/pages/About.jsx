@@ -29,7 +29,7 @@ const About = () => {
         <Hero
           image={image}
           AboutStyle="AboutStyle"
-          className="top-[74%]"
+          className="sm:top-[80%]  lg:top-[22%] "
           title="OmMart Ecommerce"
         />
       </motion.div>
