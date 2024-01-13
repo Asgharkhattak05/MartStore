@@ -83,7 +83,7 @@ const SingleProduct = () => {
 
             {/* product dAta  */}
             <div className="product-data capitalize">
-              <h2>{name}</h2>
+              <h2 className="font-bold">{name}</h2>
               <Star stars={stars} reviews={reviews} />
 
               <p className="product-data-price">
