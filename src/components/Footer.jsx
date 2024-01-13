@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" md:h-[50vh] h-[170vh] main-section bg-[#081432] text-lay1 text-white">
+      <div className=" md:pt-28 md:h-[50vh] h-[170vh] main-section bg-[#081432] text-lay1 text-white">
         <div className=" inner-div  md:grid-cols-4 sm:grid-cols-1 grid-cols-1">
           <div>
             <h2 className="text-xl pb-2">OmMart Store</h2>

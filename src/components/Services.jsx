@@ -37,17 +37,17 @@ const Services = () => {
 
           <div className="header_section  text-center ">
             <div className="mb-4 flex bg-gray-300 rounded-md py-5 px-5 justify-center items-center">
-              <div className="bg-white rounded-full sm:w-[64px] w-[50px] h-12 sm:h-16 flex items-center justify-center mx-auto">
+              <div className="bg-white rounded-full sm:w-[60px] md:w-[50px]  h-12 sm:h-12 flex items-center justify-center mx-auto">
                 <FontAwesomeIcon
                   icon={faShieldHalved}
-                  className="text-2xl text-blue-600"
+                  className="md:text-3xl text-2xl text-blue-600"
                 />
               </div>
               <h1 className="mt-2">Non-Contact Shiping</h1>
             </div>
             <div className="md:mb-4 flex bg-gray-300 rounded-md py-6 px-5 justify-center items-center">
-              <div className="bg-white rounded-full sm:w-[64px] w-[60px] h-12 sm:h-16 flex items-center justify-center mx-auto">
-                <GiCash className="text-2xl text-blue-600" />
+              <div className="bg-white rounded-full sm:w-[60px] md:w-[56px] h-12 sm:h-12 flex items-center justify-center mx-auto">
+                <GiCash className=" md:text-3xl text-2xl text-blue-600" />
               </div>
               <h1 className="mt-2">Money-back Guarenteed</h1>
             </div>

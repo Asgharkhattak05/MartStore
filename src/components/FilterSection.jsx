@@ -39,11 +39,12 @@ const FilterSection = () => {
       md:justify-start justify-center md:text-start md:items-start"
       >
         {/* ---------------Filter Search Section----------------  */}
-        <div className="filter-search">
+        <div className="filter-search ">
           <form onSubmit={(e) => e.preventDefault()}>
             <input
               placeholder="Search"
-              className="shadow appearance-none border rounded py-2 px-3  text-gray-700 "
+              className="shadow flex mx-auto
+              appearance-none border rounded py-2 px-3  text-gray-700 "
               name="text"
               type="text"
               value={text}
@@ -52,7 +53,7 @@ const FilterSection = () => {
           </form>
         </div>
         {/* ---------------Filter Category Section----------------  */}
-        <div className="filter-category">
+        <div className=" filter-category">
           <h3>Category</h3>
           <div>
             {categoryData.map((curElem, index) => {

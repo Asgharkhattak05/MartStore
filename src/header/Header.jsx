@@ -4,6 +4,9 @@ import logo from "../images/logos.jpg";
 import { useCartContext } from "../context/CartContext";
 import { useAuth0 } from "@auth0/auth0-react";
 import { motion } from "framer-motion";
+import close from "../images/close.svg"
+import menu from "../images/menu .svg"
+
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +25,7 @@ const Header = () => {
       <nav className="flex items-center justify-between sm:h-16 md:h-24 lg:h-16  md:pt-0">
         <img src={logo} alt="logo" className="w-32  ml-7" />
         <img
-          src={open ? "./src/assets/close.svg" : "./src/assets/menu .svg"}
+          src={open ? close :menu }
           className="md:hidden fixed right-5 cursor-pointer z-20 md:top-2 w-10"
           onClick={() => setOpen(!open)}
           alt="menu-icon"

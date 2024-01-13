@@ -73,7 +73,7 @@ const SingleProduct = () => {
     >
       <Wrapper>
         <PageNavigation title={name} />
-        <div className=" py-10 flex justify-center items-center">
+        <div className=" pt-10 md:pb-10 flex justify-center items-center">
           <div className="grid md:grid-cols-2 grid-cols-1 gap-20 md:w-[70%] w-[95%]">
             {/* product Images  */}
             <div className="product_images">
